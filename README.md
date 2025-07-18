@@ -64,7 +64,4 @@ ecglstm/
 
 ---
 
-# About Me
-- Meghana Kiranchand
-- BMS Institute of Technology and Management
 
