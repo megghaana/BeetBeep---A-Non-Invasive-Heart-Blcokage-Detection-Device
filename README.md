@@ -27,15 +27,15 @@ BeetBeep is a deep learning-based diagnostic tool for non-invasive heart blockag
 ## Project Structure
 ecglstm/
 │
-├── ecg.csv # ECG dataset (~7.6 MB)
-├── ecg.ipynb # Primary training and evaluation notebook
-├── ecg1.ipynb # Updated notebook with higher accuracy
-│
-├── ecg_model.h5 # Trained Keras model
-├── ecg_model.tflite # TFLite model for embedded devices
-├── ecg_model.h # C header file for microcontroller deployment
-README.md # This file
-requirements.txt # Python dependencies
+  ├── ecg.csv # ECG dataset (~7.6 MB)
+  ├── ecg.ipynb # Primary training and evaluation notebook
+  ├── ecg1.ipynb # Updated notebook with higher accuracy
+  │
+  ├── ecg_model.h5 # Trained Keras model
+  ├── ecg_model.tflite # TFLite model for embedded devices
+  ├── ecg_model.h # C header file for microcontroller deployment
+  README.md # This file
+  requirements.txt # Python dependencies
 
 
 ---
