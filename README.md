@@ -25,6 +25,7 @@ BeetBeep is a deep learning-based diagnostic tool for non-invasive heart blockag
 ---
 
 ## Project Structure
+```
 ecglstm/
 │
 ├── ecg.csv # ECG dataset (~7.6 MB)
@@ -37,6 +38,7 @@ ecglstm/
 README.md # Project documentation
 requirements.txt # Python dependencies
 
+```
 
 ---
 
