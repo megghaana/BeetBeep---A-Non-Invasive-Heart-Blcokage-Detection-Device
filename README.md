@@ -1,5 +1,4 @@
-# BeetBeep---A-Non-Invasive-Heart-Blcokage-Detection-Device
-# BeetBeep: Heart Blockage Detection using ConvLSTM and ECG Signals
+# BeetBeep: A Non-Invasive Heart Blockage Detection Device using ConvLSTM and ECG Sensors.
 
 BeetBeep is a deep learning-based diagnostic tool for non-invasive heart blockage detection using ECG time-series data. The model utilizes a ConvLSTM architecture to analyze patterns in ECG signals and achieve clinical-grade accuracy.
 
@@ -50,4 +49,22 @@ ecglstm/
 | False Positives | 7      |
 | False Negatives | 4      |
 
+---
+
+# Dataset
+- The ECG dataset is included as a .csv file (ecg.csv).
+- If using a different dataset, adjust the data loading section in ecg.ipynb.
+
+---
+
+# Deployment Artifacts
+- ecg_model.h5 – Full model for further training or evaluation
+- ecg_model.tflite – Optimized for mobile/embedded devices
+- ecg_model.h – C header file for direct use in microcontroller environments
+
+---
+
+# About Me
+- Meghana Kiranchand
+- BMS Institute of Technology and Management
 
