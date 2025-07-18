@@ -34,9 +34,9 @@ ecglstm/
 ├── ecg_model.h5 # Trained Keras model
 ├── ecg_model.tflite # TFLite model for embedded devices
 ├── ecg_model.h # C header file for microcontroller deployment
-├── requirements.txt # Python dependencies
-├── README.md # This file
-├── .gitignore # Excludes unwanted files from version control
+README.md # This file
+requirements.txt # Python dependencies
+
 
 ---
 
